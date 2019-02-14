@@ -1,0 +1,26 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambda:serve": "netlify-lambda serve lambdas",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptokni8/serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryptokni8/serverless/issues"
+  },
+  "homepage": "https://github.com/cryptokni8/serverless#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "netlify-lambda": "^1.4.0",
+    "nodemailer": "^5.1.1"
+  }
+}
